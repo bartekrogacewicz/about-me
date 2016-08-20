@@ -1,0 +1,52 @@
+@keyframes mojaAnimacja {
+	0% {
+
+	}
+	50% {
+
+	}
+	100% {
+		
+	}
+}
+
+
+
+.main-picture {
+	width: 100%;
+}
+.base-text {
+	font-size: 2.5rem;
+}
+.box-description{
+	position: relative;
+}
+.box-me{
+	position: relative;
+}
+.photo-box{
+	position: relative;
+}
+.skill{
+	width:100%;
+	position: relative;
+}
+.photo-row {
+	margin-bottom: 20px;
+}
+.photo-center {
+	text-align: center;
+}
+.main-box {
+	margin: 0;
+	position: relative;
+	width:100%;
+}
+@media(max-width: 768px) {
+	.main-box, .box-me, .box-description, .photo-box{
+		position: static;
+	}
+	.content {
+		margin-top: 6rem;
+	}
+}

@@ -1,0 +1,56 @@
+.about-text {
+  font-size: 1.4rem;
+  padding-left: 2rem;
+}
+.skill-box {
+  padding: 1rem;
+  width: 90%;
+}
+.skill {
+  background-color: #C9C9C9;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+}
+.skill-title {
+  font-size: 1.6rem;
+}
+.skill-text {
+  font-size: 1.4rem;
+  margin: 0 auto;
+}
+.skill-rate {
+  background-color: #D1E0E6;
+  padding: 1rem;
+}
+.main-picture {
+  width: 90%;
+  position: relative;
+}
+.base-text {
+  font-size: 1.4rem;
+  position: relative;
+}
+.photo-center {
+  max-width: 100%;
+}
+.photo-row {
+  margin: 0 auto;
+}
+pasek-menu {
+  position: relative;
+}
+.navigation-width {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .pasek-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 900;
+  }
+}
+.header-menu > div {
+  line-height: 50px;
+}
